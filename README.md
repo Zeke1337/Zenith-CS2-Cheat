@@ -10,7 +10,7 @@ This Counter-Strike 2 Legit Cheat is released **for free** and is intended **sol
 
 **Reselling or distributing this cheat for commercial purposes is strictly prohibited.** You are not permitted to copy, modify or distribute this cheat in any form with the intention of selling it or otherwise profiting from it.
 
-Please respect the terms of this release and use the cheat responsibly. Any unauthorized commercial use will be considered a violation of these terms and may result in legal action.
+Please respect the terms of this release and use the cheat responsibly.
 
 Thank you for understanding and respecting these guidelines.
 
