@@ -48,14 +48,6 @@ struct Player {
     int iTeam;
 };
 
-struct BoneConnection
-{
-    int bone1;
-    int bone2;
-
-    BoneConnection(int b1,int b2) : bone1(b1), bone2(b2) {};
-};
-
 
 
 
