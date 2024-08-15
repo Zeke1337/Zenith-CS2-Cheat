@@ -10,3 +10,7 @@ developers:
 
 - Adamom: https://github.com/Adamok1337
 - Zeke: https://github.com/Zeke1337
+
+credits:
+
+- Guided Hacking: https://guidedhacking.com/
