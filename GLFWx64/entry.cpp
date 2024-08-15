@@ -11,11 +11,11 @@ int main()
 	debuggerCheckThread.detach(); // Detach the thread to run independently
 	InitDebug();
 	
+	// Check Account
+	//bool status = valid();
 
-	bool status = valid();
-
-	if (!status)
-		return 0;
+	//if (!status)
+		//return 0;
 
 	Start(status);
 
