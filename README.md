@@ -14,6 +14,8 @@ Thank you for understanding and respecting these guidelines.
 
 --- 
 
+We welcome and appreciate any contributions to improve this Counter-Strike 2 Legit Cheat. If you have ideas for enhancements, bug fixes, or new features, your help is invaluable!
+
 Free Open Source Counter Strike 2 legit cheat:
 
 Features:
