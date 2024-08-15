@@ -26,6 +26,9 @@ Features:
 - Bomb Timer
 - And much more
 
+![asasdasdasdasd](https://github.com/user-attachments/assets/141442b9-3f4a-4b32-87ec-09a8a3209fa7)
+
+
 notes:
 
 - There are a lot of things to improve. I was just lazy and wanted to publish this.
