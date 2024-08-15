@@ -9,7 +9,7 @@ std::string ConvertBSTRToString(BSTR bstr) {
         return "";
     }
 
-    // Bestimmen Sie die Länge des benötigten Buffers
+    // Bestimmen Sie die LÃ¤nge des benÃ¶tigten Buffers
     int length = WideCharToMultiByte(CP_UTF8, 0, bstr, -1, nullptr, 0, nullptr, nullptr);
 
     if (length == 0) {
@@ -17,20 +17,20 @@ std::string ConvertBSTRToString(BSTR bstr) {
         return "";
     }
 
-    // Erstellen Sie einen Puffer für den resultierenden std::string
+    // Erstellen Sie einen Puffer fÃ¼r den resultierenden std::string
     std::string result(length, '\0');
 
-    // Führen Sie die tatsächliche Konvertierung durch
+    // FÃ¼hren Sie die tatsÃ¤chliche Konvertierung durch
     WideCharToMultiByte(CP_UTF8, 0, bstr, -1, &result[0], length, nullptr, nullptr);
 
-    // Entfernen Sie das abschließende Nullzeichen, das von WideCharToMultiByte hinzugefügt wurde
+    // Entfernen Sie das abschlieÃŸende Nullzeichen, das von WideCharToMultiByte hinzugefÃ¼gt wurde
     result.resize(length - 1);
 
     return result;
 }
 
 
-std::string optain()
+std::string optain() // Optain MotherBoardId
 {
     VARIANT vtProp{};
     HRESULT hres;
