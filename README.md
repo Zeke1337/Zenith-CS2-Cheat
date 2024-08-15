@@ -44,4 +44,29 @@ credits:
 - Guided Hacking: https://guidedhacking.com/
 - CS2 Dumper: https://github.com/a2x/cs2-dumper
 
+To maintain discretion, rename the cheat application to one of the following or a similar, non-obvious name:
+- SysUpdate_[random_numbers].exe
+- DriverSetup_[your_initials].exe
+- SecPatch_[unique_identifier].exe
+- SysUtility_[random_letters].exe
+- UpdaterTool_[unique_id].exe
+- DrvManager_[random_digits].exe
+- SvcManager_[your_username].exe
+- NetConfig_[random_characters].exe
+- SecUpdate_[custom_id].exe
+- SysBackup_[unique_code].exe
+- WinHelper_[random_letters_and_numbers].exe
+- DrvInstaller_[unique_string].exe
+- ProcManager_[custom_digits].exe
+- SysOptimizer_[your_initials_and_numbers].exe
+- UpdateMgr_[unique_id].exe
+- PerfMonitor_[random_string].exe
+- SysSvc_[your_username].exe
+- NetHelper_[unique_code].exe
+- DrvUpdater_[custom_characters].exe
+- MaintTool_[random_letters_and_digits].exe
+- SysCfg_[unique_identifier].exe
+- HwCheck_[custom_code].exe
+- SysDiag_[random_numbers_and_letters].exe
+
 
