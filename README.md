@@ -8,7 +8,7 @@ notes:
 
 developers:
 
-- Adamom: https://github.com/Adamok1337
+- Adamok: https://github.com/Adamok1337
 - Zeke: https://github.com/Zeke1337
 
 credits:
