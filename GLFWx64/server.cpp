@@ -77,8 +77,8 @@ std::string SendPostRequest(const std::wstring& server, const std::wstring& path
 bool valid()
 {
     
-    std::wstring server = L"213211df11d12dqssad.atwebpages.com";
-    std::wstring path = L"/login.php";
+    std::wstring server = L"Your Website";
+    std::wstring path = L"/Your Website´s php Login Page (login.php)";
     std::string motherboardId = optain();
     std::string userInput1;
     printf("Enter Username:");
