@@ -13,6 +13,7 @@ int main()
 	
 	// Check Account
 	//bool status = valid();
+	bool status = true;
 
 	//if (!status)
 		//return 0;
