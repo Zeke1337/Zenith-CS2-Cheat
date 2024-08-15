@@ -2,6 +2,16 @@
 
 Free Open Source Counter Strike 2 legit cheat 
 
+Features:
+- Aimbot
+- Aimlock ( press shift )
+- Triggerbot
+- Esp
+- No Flash
+- Bhop
+- Bomb Timer
+- And much more
+
 notes:
 
 - there are a lot of things to improve. I was just lazy and wanted to publish this.
