@@ -32,6 +32,7 @@ Features:
 notes:
 
 - There are a lot of things to improve. I was just lazy and wanted to publish this.
+- Aimbot and Aimlock dont work that great.
 
 developers:
 
