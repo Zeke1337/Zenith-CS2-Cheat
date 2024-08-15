@@ -28,7 +28,7 @@ Features:
 
 notes:
 
-- there are a lot of things to improve. I was just lazy and wanted to publish this.
+- There are a lot of things to improve. I was just lazy and wanted to publish this.
 
 developers:
 
