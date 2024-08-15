@@ -16,8 +16,6 @@ Thank you for understanding and respecting these guidelines.
 
 --- 
 
-Feel free to adjust the wording as needed!
-
 Features:
 - Aimbot
 - Aimlock ( press shift )
