@@ -14,3 +14,4 @@ developers:
 credits:
 
 - Guided Hacking: https://guidedhacking.com/
+- CS2 Dumper: https://github.com/a2x/cs2-dumper
