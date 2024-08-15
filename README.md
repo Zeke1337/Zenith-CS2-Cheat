@@ -8,7 +8,7 @@ Free Open Source Counter Strike 2 legit cheat:
 
 This Counter-Strike 2 Legit Cheat is released **for free** and is intended **solely for educational purposes or personal gameplay** within Counter-Strike 2. 
 
-**Reselling or distributing this cheat for commercial purposes is strictly prohibited.** You are not permitted to copy or distribute this cheat in any form with the intention of selling it or otherwise profiting from it.
+**Reselling or distributing this cheat for commercial purposes is strictly prohibited.** You are not permitted to copy, modify or distribute this cheat in any form with the intention of selling it or otherwise profiting from it.
 
 Please respect the terms of this release and use the cheat responsibly. Any unauthorized commercial use will be considered a violation of these terms and may result in legal action.
 
