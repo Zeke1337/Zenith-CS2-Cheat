@@ -23,7 +23,7 @@ bool GetPlayer(HANDLE hProc,uintptr_t moduleBase,  Player& player)
 	player.Matrix = Memory::RPM<ViewMatrix>(hProc, (moduleBase + dumper::offsets::client_dll::dwViewMatrix));
     player.iTeam = Memory::RPM<int>(hProc, player.baseAdress + dumper::schemas::client_dll::C_BaseEntity::m_iTeamNum);
 
-    uintptr_t playerController = Memory::RPM<uintptr_t>(hProc, (moduleBase + dumper::offsets::client_dll::dwLocalPlayerController));
+    //uintptr_t playerController = Memory::RPM<uintptr_t>(hProc, (moduleBase + dumper::offsets::client_dll::dwLocalPlayerController));
     
     
 
