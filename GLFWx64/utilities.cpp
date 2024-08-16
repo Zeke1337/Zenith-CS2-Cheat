@@ -49,7 +49,7 @@ void GetEntity(HANDLE hProc, Client& client, Player& player,Entity& entity,  int
 
     if (!playerController) return;
     
-    Memory::ReadString(hProc, playerController + 0x630, entity.cName, sizeof(entity.cName));
+    Memory::ReadString(hProc, playerController + dumper::schemas::client_dll::CBasePlayerController::m_iszPlayerName, entity.cName, sizeof(entity.cName));
     
 
     uintptr_t playerEnt = Memory::RPM<uintptr_t>(hProc, (listentry + 120 * (playerIndex & 0x1FF)));
