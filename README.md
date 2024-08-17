@@ -45,6 +45,7 @@ credits:
 
 - Guided Hacking: https://guidedhacking.com/
 - CS2 Dumper: https://github.com/a2x/cs2-dumper
+- Asver: https://www.youtube.com/watch?v=UCkVfZCFXp8
 
 To maintain discretion, rename the cheat application to one of the following or a similar, non-obvious name:
 - SysUpdate_[random_numbers].exe
