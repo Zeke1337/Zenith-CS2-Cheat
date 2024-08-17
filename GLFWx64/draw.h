@@ -20,6 +20,8 @@ void DrawOutline(Vec2& FeetCoords, Vec2& HeadCoords, Config& cnf);
 
 void drawFOVCircle(float radius, const Vec2& screenCenter);
 
+void DrawLine(Vec2& x, Vec2& y, Config& cnf);
+
 void renderText(const char* text, GLuint listBase, float x, float y);
 
 void DrawBox(Vec2& FeetCoords, Vec2& HeadCoords, Config& cnf);

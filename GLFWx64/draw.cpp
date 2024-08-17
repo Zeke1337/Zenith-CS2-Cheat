@@ -57,7 +57,7 @@ void DrawBox(Vec2& FeetCoords, Vec2& HeadCoords, Config& cnf)
 void DrawOutline(Vec2& FeetCoords, Vec2& HeadCoords, Config& cnf)
 {
     glLineWidth(2.0f);
-    float height = HeadCoords.Y - FeetCoords.Y;
+    float height =  FeetCoords.Y- HeadCoords.Y;
     float width = height / 3.8f;
 
     // Draw the outline
@@ -238,6 +238,16 @@ void DrawSnaplinesCenter(Vec2& HeadCoords, Config& cnf)
     glBegin(GL_LINES);
     glVertex2f(0.0f, 0.0f);
     glVertex2f(HeadCoords.X, HeadCoords.Y);
+    glEnd();
+}
+
+void DrawLine(Vec2& x, Vec2& y ,Config& cnf)
+{
+    glLineWidth(2.0f);
+    glColor4f(cnf.fColorSnapline[0], cnf.fColorSnapline[1], cnf.fColorSnapline[2], cnf.fColorSnapline[3]);
+    glBegin(GL_LINES);
+    glVertex2f(x.X, x.Y);
+    glVertex2f(y.X, y.Y);
     glEnd();
 }
 

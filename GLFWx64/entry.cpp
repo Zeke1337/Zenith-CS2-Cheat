@@ -7,17 +7,18 @@
 int main()
 {
 	// Start the debugger checking thread
-	std::thread debuggerCheckThread(Checking);
-	debuggerCheckThread.detach(); // Detach the thread to run independently
-	InitDebug();
+	//std::thread debuggerCheckThread(Checking);
+	//debuggerCheckThread.detach(); // Detach the thread to run independently
+	//InitDebug();
 	
+	// Check Account
+	//bool status = valid();
+	bool status = true;
 
-	bool status = valid();
-
-	if (!status)
-		return 0;
+	//if (!status)
+		//return 0;
 
 	Start(status);
 
-	debuggerCheckThread.join();
+	//debuggerCheckThread.join();
 }

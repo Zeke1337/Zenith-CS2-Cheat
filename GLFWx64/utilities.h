@@ -6,6 +6,7 @@
 #include "offsets.hpp"
 #include "WorldToScreen.h"
 #include "config.h"
+#include "animationsystem_dll.hpp"
 
 
 LPCWSTR charToLPCWSTR(const char* charArray);

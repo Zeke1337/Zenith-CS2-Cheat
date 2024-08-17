@@ -30,7 +30,7 @@ void menu::Render(Config& config) {
     ImGui::PushStyleVar(ImGuiStyleVar_WindowMinSize, ImVec2(750.0f, 400.0f));
 
     // Begin main window with no scrollbars
-    ImGui::Begin("xphax", NULL, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar);
+    ImGui::Begin("Counter Strike 2 Legit Cheat", NULL, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar);
 
     // Tabs
     ImGui::BeginChild("Tabs", ImVec2(120, 0), true, ImGuiWindowFlags_NoScrollbar); // No scrollbar in the tabs child

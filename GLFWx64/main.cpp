@@ -2,23 +2,31 @@
 
 std::vector<Entity> enemies(64);
 
+struct BoneConnection
+{
+    int bone1;
+    int bone2;
+
+    BoneConnection(int b1, int b2) : bone1(b1), bone2(b2) {}
+};
+
 BoneConnection boneConnections[] = {
-        BoneConnection(6, 5),
-        BoneConnection(5, 4),
-        BoneConnection(4, 0),
-        BoneConnection(4, 8),
-        BoneConnection(8, 9),
-        BoneConnection(9, 11),
-        BoneConnection(4, 13),
-        BoneConnection(13, 14),
-        BoneConnection(14, 16),
-        BoneConnection(4, 2),
-        BoneConnection(0, 22),
-        BoneConnection(0, 25),
-        BoneConnection(22, 23),
-        BoneConnection(23, 24),
-        BoneConnection(25, 26),
-        BoneConnection(26, 27),
+BoneConnection(6, 5),  // head to neck
+BoneConnection(5, 4),  // neck to spine
+BoneConnection(4, 0),  // spine to hip
+BoneConnection(4, 8), // spine to left shoulder
+BoneConnection(8, 9), // left shoulder to left arm
+BoneConnection(9, 11), // arm to hand
+BoneConnection(4, 13),
+BoneConnection(13, 14),
+BoneConnection(14, 16),
+BoneConnection(4, 2),  // spine to spine_1
+BoneConnection(0, 22), // hip to left_hip
+BoneConnection(0, 25), // hip to right_hip
+BoneConnection(22, 23), // left_hip to left_knee
+BoneConnection(23, 24), // left knee to left foot
+BoneConnection(25, 26), // right_hip to right_knee
+BoneConnection(26, 27) // right knee to right foot
 };
 
 
@@ -115,19 +123,35 @@ int Start(bool status) {
                 if (!ConvertTo2D(enemies[i], player))
                     continue;
 
+                for (int j = 0; j < sizeof(boneConnections) / sizeof(boneConnections[0]); j++)
+                {
+                    int bone1 = boneConnections[j].bone1;
+                    int bone2 = boneConnections[j].bone2;
+
+                    Vec3 VectorBones1 = Memory::RPM<Vec3>(hProc, (enemies[i].sceneNode + (bone1 * 32)));
+                    Vec3 VectorBones2 = Memory::RPM<Vec3>(hProc, (enemies[i].sceneNode + (bone2 * 32)));
+
+                    Vec2 b1;
+                    Vec2 b2;
+                    WorldToScreenEsp(VectorBones1, b1, player.Matrix.Matrix);
+                    WorldToScreenEsp(VectorBones2, b2, player.Matrix.Matrix);
+                    DrawLine(b1, b2, cnf);
+                }
+                
+
                 
                 if (cnf.bEnableEsp)
                 {
                     switch (cnf.comboIndexEsp)
                     {
                     case 0: 
-                        DrawOutline(enemies[i].FeetCoords, enemies[i].HeadCoords, cnf);
+                        DrawOutline(enemies[i].FeetCoords, enemies[i].NeckCoords, cnf);
                         break;
                     case 1:
-                        DrawCornerOutline(enemies[i].FeetCoords, enemies[i].HeadCoords, cnf);
+                        DrawCornerOutline(enemies[i].FeetCoords, enemies[i].NeckCoords, cnf);
                         break;
                     case 2:
-                        DrawBox(enemies[i].FeetCoords, enemies[i].HeadCoords, cnf);
+                        DrawBox(enemies[i].FeetCoords, enemies[i].NeckCoords, cnf);
                         break;
                     default:
                         break;
@@ -135,9 +159,9 @@ int Start(bool status) {
                     
                 }
 
-                if (cnf.bEnableNameEsp) { ShowNameInText(enemies[i].HeadCoords, fontBase, enemies[i].cName); }
-                if(cnf.bEnemyHealthBarEsp) { DrawHealthbar(enemies[i].FeetCoords, enemies[i].HeadCoords, cnf, enemies[i].health); }
-                if(cnf.bEnemyArmorBarEsp) { DrawArmorbar(enemies[i].FeetCoords, enemies[i].HeadCoords, cnf, enemies[i].iArmor); }
+                if (cnf.bEnableNameEsp) { ShowNameInText(enemies[i].NeckCoords, fontBase, enemies[i].cName); }
+                if(cnf.bEnemyHealthBarEsp) { DrawHealthbar(enemies[i].FeetCoords, enemies[i].NeckCoords, cnf, enemies[i].health); }
+                if(cnf.bEnemyArmorBarEsp) { DrawArmorbar(enemies[i].FeetCoords, enemies[i].NeckCoords, cnf, enemies[i].iArmor); }
                 if(cnf.bHealthTextEsp) { ShowHealthInText(enemies[i].FeetCoords, fontBase, cnf, enemies[i].health); }
                 if (cnf.bGameRadar) { Radar(hProc, enemies[i]); };
 
@@ -146,13 +170,13 @@ int Start(bool status) {
                     switch (cnf.comboIndex)
                     {
                     case 0:
-                        DrawSnaplinesTop(enemies[i].HeadCoords, cnf);
+                        DrawSnaplinesTop(enemies[i].NeckCoords, cnf);
                         break;
                     case 1:
-                        DrawSnaplinesCenter(enemies[i].HeadCoords, cnf);
+                        DrawSnaplinesCenter(enemies[i].NeckCoords, cnf);
                         break;
                     case 2:
-                        DrawSnaplinesBottom(enemies[i].FeetCoords, cnf);
+                        DrawSnaplinesBottom(enemies[i].NeckCoords, cnf);
                         break;
                     default:
                         break;
@@ -164,6 +188,9 @@ int Start(bool status) {
         }
 
         
+        
+        
+
 
         // Correct the screen center coordinates
         int display_w, display_h;

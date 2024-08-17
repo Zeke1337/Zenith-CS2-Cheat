@@ -45,8 +45,7 @@ void aimAtClosestEnemy(const Vec3& localPosition, const std::vector<Entity>& ene
             continue;
 
         Vec2 enemyScreenPos;
-        if (!WorldToScreenAimbot(enemy.headOrigin, enemyScreenPos, Matrix.Matrix)) {
-            
+        if (!WorldToScreenAimbot(enemy.NeckOrigin, enemyScreenPos, Matrix.Matrix)) {
             continue;
         }
 
