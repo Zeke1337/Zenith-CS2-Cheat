@@ -23,6 +23,7 @@ Features:
 - Aimlock ( press shift )
 - Triggerbot
 - Esp
+- Skeleton
 - No Flash
 - Bhop
 - Bomb Timer
