@@ -1,0 +1,40 @@
+{
+    "bBhop": false,
+    "bBombTimer": true,
+    "bCustomRadar": false,
+    "bEnableAimbot": false,
+    "bEnableAimlock": true,
+    "bEnableBhop": false,
+    "bEnableEsp": true,
+    "bEnableNameEsp": false,
+    "bEnableRadar": false,
+    "bEnableSnaplines": true,
+    "bEnemyArmorBarEsp": false,
+    "bEnemyHealthBarEsp": false,
+    "bEnemySnaplines": false,
+    "bGameRadar": false,
+    "bHealthTextEsp": false,
+    "bNoFlash": false,
+    "bShowMenu": true,
+    "bTeamSnaplines": false,
+    "bTriggerbot": false,
+    "comboIndex": 2,
+    "comboIndexEsp": 1,
+    "fColorEsp": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+    ],
+    "fColorSnapline": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+    ],
+    "fDistanceToHead": 75.0,
+    "fFovRadius": 100.0,
+    "fHitChance": 100.0,
+    "fLineIndex": 4.0,
+    "fSmoothIndex": 1.0
+}
