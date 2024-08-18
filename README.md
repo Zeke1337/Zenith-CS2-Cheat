@@ -16,6 +16,13 @@ Thank you for understanding and respecting these guidelines.
 
 We welcome and appreciate any contributions to improve this Counter-Strike 2 Legit Cheat. If you have ideas for enhancements, bug fixes, or new features, your help is invaluable!
 
+Guide:
+- Download "Counter_Strike_2_legit&cheat.exe"
+- Download "glew33.dll"
+- Put the two files in the same directory
+- Open the exe file
+- done
+
 Free Open Source Counter Strike 2 legit cheat:
 
 Features:
