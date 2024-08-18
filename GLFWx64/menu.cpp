@@ -169,13 +169,6 @@ void menu::Render(Config& config) {
        
         if (ImGui::IsItemHovered())
             ImGui::SetTooltip("Auto bunny hop");
-
-        //ImGui::Checkbox("Fov", &config.bEnableFov);
-        //ImGui::SliderInt("iFov Value", &config.iFovValue, 1, 200);
-        //ImGui::SliderInt("Fov Value", &config.FovValue, 1, 200);
-
-        //ImGui::Checkbox("Thirdperson", &config.bEnableThirdperson);
-
         break;
     }
     case 3: // Settings
