@@ -21,6 +21,7 @@ Guide:
 - Download "glew33.dll"
 - Put the two files in the same directory
 - Open the exe file
+- Set your resolution to WINDOWED FULL SCREEN IN Counter Strike 2
 - done
 
 Free Open Source Counter Strike 2 legit cheat:
