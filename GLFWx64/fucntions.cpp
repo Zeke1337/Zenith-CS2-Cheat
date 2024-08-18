@@ -121,21 +121,6 @@ void Bhop(HANDLE hProc, Player& player, Client& client)
     
 }
 
-void iFov(HANDLE& hProc, Player& player, Config& cnf)
-{
-    Memory::WPM<int>(hProc, player.camerServices + 0x210, cnf.iFovValue);
-}
-
-void Fov(HANDLE& hProc, Player& player, Config& cnf)
-{
-    Memory::WPM<int>(hProc, player.camerServices + 0x214, cnf.FovValue);
-}
-
-void ThirdPerson(HANDLE& hProc, Player& player, Config& cnf)
-{
-    Memory::WPM<int>(hProc, player.observerServices + 0x40, 3);
-}
-
 void NoFlash(HANDLE& hProc, Player& player)
 {
     Memory::WPM<float>(hProc, (player.baseAdress + 0x1358), 0);
