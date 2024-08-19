@@ -17,9 +17,9 @@ namespace menu
 
 	void Render(Config& config);
 	void RenderSecondaryWindow(Config& config, Client& client);
-
+	void ApplyCustomColors(Config& config);
 	void SetCustomBlackTheme();
-	void setupGui(GLFWwindow* window, const char* glsl_version);
+	void setupGui(GLFWwindow* window, const char* glsl_version, Config& config);
 	GLFWwindow* setupGlfw(const char* window_title, int width, int height);
 
 }

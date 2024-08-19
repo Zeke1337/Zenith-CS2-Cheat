@@ -15,3 +15,6 @@ void Triggerbot(HANDLE hProc, Player& player, Client& client);
 void Bhop(HANDLE hProc, Player& player, Client& client);
 void NoFlash(HANDLE& hProc, Player& player);
 void Radar(HANDLE hProc, Entity& entity);
+void Fov(HANDLE& hProc, Player& player, Config& cnf);
+void iFov(HANDLE& hProc, Player& player, Config& cnf);
+void ThirdPerson(HANDLE& hProc, Player& player, Config& cnf);

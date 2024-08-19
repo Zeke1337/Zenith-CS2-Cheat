@@ -45,7 +45,7 @@ int Start(bool status) {
     if (!window) return -1;
 
     // Setup ImGui
-    menu::setupGui(window, glsl_version);
+    menu::setupGui(window, glsl_version, cnf);
 
     HWND hWnd = GetConsoleWindow();
     ShowWindow(hWnd, SW_HIDE);
