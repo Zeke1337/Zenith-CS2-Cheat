@@ -22,6 +22,7 @@ Guide:
 - Put the two files in the same directory
 - Open the exe file
 - Set your resolution to WINDOWED FULL SCREEN IN Counter Strike 2
+- Press "INSERT" to open or close the cheat
 - done
 
 ### Free Open Source Counter Strike 2 legit cheat:
