@@ -1,4 +1,4 @@
-# Counter-Strike-2-Cheat
+# ZENITH | Counter-Strike-2-Cheat
 
 ---
 
