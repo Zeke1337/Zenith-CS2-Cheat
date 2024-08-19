@@ -37,7 +37,7 @@ Features:
 - Bomb Timer
 - And much more
 
-![asasdasdasdasd](https://github.com/user-attachments/assets/141442b9-3f4a-4b32-87ec-09a8a3209fa7)
+![asdsdaasdasd](https://github.com/user-attachments/assets/2dab3b8d-eb1c-41de-9284-28c6935f0b20)
 
 
 notes:
