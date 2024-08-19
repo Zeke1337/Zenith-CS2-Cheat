@@ -24,7 +24,7 @@ Guide:
 - Set your resolution to WINDOWED FULL SCREEN IN Counter Strike 2
 - done
 
-###Free Open Source Counter Strike 2 legit cheat:
+### Free Open Source Counter Strike 2 legit cheat:
 
 ![asdsdaasdasd](https://github.com/user-attachments/assets/2dab3b8d-eb1c-41de-9284-28c6935f0b20)
 
