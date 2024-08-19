@@ -50,8 +50,6 @@ developers:
 - Adamok: https://github.com/Adamok1337
 - Zeke: https://github.com/Zeke1337
 
-https://www.youtube.com/watch?v=TMThWhOwj68
-
 credits:
 
 - Guided Hacking: https://guidedhacking.com/
