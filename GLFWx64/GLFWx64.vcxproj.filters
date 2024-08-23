@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{9e8b2815-30c1-4ef9-9fa8-83eda05d490d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{e42841e3-ceb1-4730-8f57-ddefcfa5c273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{bad25dd2-4c0a-4be6-97f1-a68d19a40097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="offsets">
+      <UniqueIdentifier>{8e24ac93-0e1d-41ec-8bbe-dc68a28bb4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="datatypes">
+      <UniqueIdentifier>{c31e7ee4-2e89-4207-9527-5df2e4c34c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{f1517520-d5d6-47ab-b0f8-fc007a92636f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{3aec3097-015d-481f-bc28-ba0a22841d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{2fd48898-ed54-4833-9e7e-939977f3e406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{cd50a26b-aa9f-404e-b2b2-d220c85ef6e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\include\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\include\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\include\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\include\imgui\imgui_impl_glfw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\include\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\include\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="datatypes.cpp">
+      <Filter>datatypes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helper.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="datatypes.h">
+      <Filter>datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="client_dll.hpp">
+      <Filter>offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="buttons.hpp">
+      <Filter>offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
