@@ -5,48 +5,166 @@
   imgui_impl_opengl3.cpp
   imgui_tables.cpp
   imgui_widgets.cpp
-  calculations.cpp
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\calculations.cpp(29,16): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\calculations.cpp(33,16): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
   config.cpp
   datatypes.cpp
-  draw.cpp
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\draw.cpp(24,23): warning C4267: "Argument": Konvertierung von "size_t" nach "GLsizei", Datenverlust möglich
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\draw.cpp(187,29): warning C4244: "Argument": Konvertierung von "double" in "GLfloat", möglicher Datenverlust
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\draw.cpp(188,29): warning C4244: "Argument": Konvertierung von "double" in "GLfloat", möglicher Datenverlust
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\draw.cpp(207,29): warning C4244: "Argument": Konvertierung von "double" in "GLfloat", möglicher Datenverlust
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\draw.cpp(208,29): warning C4244: "Argument": Konvertierung von "double" in "GLfloat", möglicher Datenverlust
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\draw.cpp(302,23): warning C4305: "+=": Verkürzung von "double" in "float"
   entry.cpp
-  fucntions.cpp
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(58,26): warning C4244: "Initialisierung": Konvertierung von "T" in "byte", möglicher Datenverlust
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(58,26): warning C4244:         with
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(58,26): warning C4244:         [
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(58,26): warning C4244:             T=uintptr_t
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(58,26): warning C4244:         ]
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(63,53): warning C4244: "=": Konvertierung von "T" in "byte", möglicher Datenverlust
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(63,53): warning C4244:         with
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(63,53): warning C4244:         [
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(63,53): warning C4244:             T=uintptr_t
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(63,53): warning C4244:         ]
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(86,24): warning C4244: "Initialisierung": Konvertierung von "T" in "int", möglicher Datenverlust
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(86,24): warning C4244:         with
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(86,24): warning C4244:         [
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(86,24): warning C4244:             T=uintptr_t
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\fucntions.cpp(86,24): warning C4244:         ]
-  hiding.cpp
-  login.cpp
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(38,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(38,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::BoneTransformSpace_t::BoneTransformSpace_Invalid": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(80,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(80,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::MovementGait_t::eInvalid": Der Enumeratorwert "-1" kann nicht als "unsigned char" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(288,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(288,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::ModelBoneFlexComponent_t::MODEL_BONE_FLEX_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(561,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(561,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::AnimScriptType::ANIMSCRIPT_TYPE_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned short" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(607,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(607,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::HandshakeTagType_t::eInvalid": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(615,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(615,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::ParticleAttachment_t::PATTACH_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(752,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(752,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::ModelConfigAttachmentType_t::MODEL_CONFIG_ATTACHMENT_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „entry.cpp“ wird kompiliert)
+  
+  geometry.cpp
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\geometry.cpp(104,16): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\geometry.cpp(108,16): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+  helper.cpp
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(38,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(38,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::BoneTransformSpace_t::BoneTransformSpace_Invalid": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(80,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(80,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::MovementGait_t::eInvalid": Der Enumeratorwert "-1" kann nicht als "unsigned char" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(288,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(288,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::ModelBoneFlexComponent_t::MODEL_BONE_FLEX_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(561,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(561,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::AnimScriptType::ANIMSCRIPT_TYPE_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned short" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(607,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(607,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::HandshakeTagType_t::eInvalid": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(615,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(615,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::ParticleAttachment_t::PATTACH_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(752,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(752,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::ModelConfigAttachmentType_t::MODEL_CONFIG_ATTACHMENT_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „helper.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(286,32): warning C4244: "Initialisierung": Konvertierung von "T" in "int", möglicher Datenverlust
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(286,32): warning C4244:         with
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(286,32): warning C4244:         [
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(286,32): warning C4244:             T=uintptr_t
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(286,32): warning C4244:         ]
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(308,26): warning C4244: "Initialisierung": Konvertierung von "T" in "byte", möglicher Datenverlust
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(308,26): warning C4244:         with
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(308,26): warning C4244:         [
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(308,26): warning C4244:             T=uintptr_t
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(308,26): warning C4244:         ]
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(313,53): warning C4244: "=": Konvertierung von "T" in "byte", möglicher Datenverlust
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(313,53): warning C4244:         with
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(313,53): warning C4244:         [
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(313,53): warning C4244:             T=uintptr_t
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\helper.cpp(313,53): warning C4244:         ]
   main.cpp
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(38,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(38,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::BoneTransformSpace_t::BoneTransformSpace_Invalid": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(80,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(80,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::MovementGait_t::eInvalid": Der Enumeratorwert "-1" kann nicht als "unsigned char" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(288,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(288,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::ModelBoneFlexComponent_t::MODEL_BONE_FLEX_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(561,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(561,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::AnimScriptType::ANIMSCRIPT_TYPE_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned short" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(607,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(607,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::HandshakeTagType_t::eInvalid": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(615,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(615,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::ParticleAttachment_t::PATTACH_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(752,17): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\animationsystem_dll.hpp(752,17): warning C4369: "cs2_dumper::schemas::animationsystem_dll::ModelConfigAttachmentType_t::MODEL_CONFIG_ATTACHMENT_INVALID": Der Enumeratorwert "-1" kann nicht als "unsigned int" dargestellt werden, der Wert ist "-1".
+  (Quelldatei „main.cpp“ wird kompiliert)
+  
   menu.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,9): warning C4005: "APIENTRY": Makro-Neudefinition
   proc.cpp
-  protection.cpp
-C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\GLFWx64\protection.cpp(170,21): warning C4312: "Typumwandlung": Konvertierung von "unsigned int" in größeren Typ "HANDLE"
-  server.cpp
-  Code wird generiert...
-  Kompilieren...
-  utilities.cpp
-  WorldToScreen.cpp
+  render.cpp
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\render.cpp(53,23): warning C4267: "Argument": Konvertierung von "size_t" nach "GLsizei", Datenverlust möglich
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\render.cpp(198,29): warning C4244: "Argument": Konvertierung von "double" in "GLfloat", möglicher Datenverlust
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\render.cpp(199,29): warning C4244: "Argument": Konvertierung von "double" in "GLfloat", möglicher Datenverlust
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\render.cpp(216,29): warning C4244: "Argument": Konvertierung von "double" in "GLfloat", möglicher Datenverlust
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\render.cpp(217,29): warning C4244: "Argument": Konvertierung von "double" in "GLfloat", möglicher Datenverlust
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\render.cpp(290,24): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\render.cpp(297,26): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\GLFWx64\render.cpp(304,25): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
   Code wird generiert...
 LINK : warning LNK4098: Standardbibliothek "MSVCRT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
-  GLFWx64.vcxproj -> C:\Users\ashura\Downloads\Counter-Strike-2-Legit-Cheat-main\Counter-Strike-2-Legit-Cheat-main\x64\Debug\counter_strike_2_legit_cheat.exe
+  GLFWx64.vcxproj -> C:\Users\zenith\Documents\GitHub\Zenith-CS2-Cheat\x64\Debug\counter_strike_2_legit_cheat.exe
