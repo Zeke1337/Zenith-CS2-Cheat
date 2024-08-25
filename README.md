@@ -3,7 +3,7 @@
 ## Installation Guide
 
 1. Navigate to the `x64` directory and select `Release`.
-2. Run `Counter Strike Legit Cheat.exe` (rename the file as necessary).
+2. Run `Counter Strike Legit Cheat.exe` (rename the file as necessary and download `glew32.dll` make sure both files are in the same directory).
 3. Set the resolution in Counter-Strike 2 to **Windowed Full Screen** mode.
 4. Press **"INSERT"** to show or hide the menu.
 5. Done.
